@@ -1,8 +1,8 @@
-senaryo= 1          # Seçtiğiniz Senaryo, detaylar için aşağıdaki şartları inceleyin
-limit  = 180        # Santim cinsinden, bu değer ve altı durumlarda algılar
-delay  = 200        # Ms cinsinden yaklaşık bir sonraki ölçüm için bekleme.
-scan   = 5          # Kaç ölçüm ortalaması limit değerin altındaysa sistem aktif olur 
-
+senaryo     = 1      # Seçtiğiniz Senaryo, detaylar için aşağıdaki şartları inceleyin
+limit       = 180    # Santim cinsinden, bu değer ve altı durumlarda algılar
+delay       = 200    # Ms cinsinden yaklaşık bir sonraki ölçüm için bekleme.
+scan        = 5      # Kaç ölçüm ortalaması limit değerin altındaysa sistem aktif olur 
+lostInTime  = 5      # Saniye cinsinden algılama kaybedildikten sonra aktif kalma süresi
 
 #Senaryo 1 -8
 #Hareket Sensörlü Ekranlar

@@ -4,3 +4,11 @@
 2020-12-09 02:16:13,840 name 'dist2' is not defined
 2020-12-09 02:18:05,198 Measurement stopped by User
 2020-12-09 02:25:29,536 Measurement stopped by User
+2020-12-09 03:41:59,741 non-integer arg 1 for randrange()
+2020-12-09 03:44:01,444 name 'Print' is not defined
+2020-12-09 03:44:44,139 unsupported operand type(s) for /: 'str' and 'int'
+2020-12-09 03:49:15,952 Measurement stopped by User
+2020-12-09 03:49:55,539 Measurement stopped by User
+2020-12-09 04:22:37,585 Measurement stopped by User
+2020-12-09 04:22:54,576 Measurement stopped by User
+2020-12-09 04:37:44,349 Measurement stopped by User
