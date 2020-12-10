@@ -24,19 +24,16 @@ from trigger import trigger
 from settings import lostInTime,delay,_debug,m_width,limit,scan,startDelay,m_width,m_height
 
 player_log = logging.getLogger("Player 1")
-try:
-    player = OMXPlayer("/home/pi/Projects/MuzeApp/media.mp4", 
+
+player = OMXPlayer("/home/pi/Projects/MuzeApp/media.wav", 
                           args=['--loop','-o', 'both','--no-osd','--win','0 0 '+m_width+' '+m_height]
                         ,dbus_name='org.mpris.MediaPlayer2.omxplayer1'+str(random.randint(0,99)))
-except Exception as e:
-    print(e)
+
 player.playEvent += lambda _: player_log.info("Play")
 player.pauseEvent += lambda _: player_log.info("Pause")
 player.stopEvent += lambda _: player_log.info("Stop")
-player.action(PAUSE)
 time.sleep(5)
 player.pause()
-player.set_alpha(0)
 
 #GPIO Mode (BOARD / BCM)
 GPIO.setmode(GPIO.BCM)
@@ -66,7 +63,6 @@ if __name__ == '__main__':
                 if(GPIO.input(GPIO_BUTTON) == GPIO.HIGH):
                     if(not is_playing):
                         time.sleep(startDelay)
-                        player.set_alpha(100 if _debug else 255 ) 
                         player.play()
                         print ("Video has started")
                         time.sleep(1.1)
@@ -77,7 +73,6 @@ if __name__ == '__main__':
             if( last_position - position >1):
                 print ("Video has stopped")
                 player.pause()
-                player.set_alpha(0)
                 player.set_position(0)
                 is_playing = False
             last_position  = position

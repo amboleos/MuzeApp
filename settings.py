@@ -12,7 +12,8 @@ delay       = 200    # Ms cinsinden yaklaşık bir sonraki ölçüm için beklem
 scan        = 5      # Kaç ölçüm ortalaması limit değerin altındaysa sistem aktif olur 
 lostInTime  = 5      # Saniye cinsinden algılama kaybedildikten sonra aktif kalma süresi
 startDelay  = 0      # Saniye cinsinden algılama oluşunca aktifleşmeden önceki bekleme
-
+m_width     = "1920"
+m_height    = "1080"
 #### SENARYOLAR
 
 #Senaryo 1
@@ -31,7 +32,7 @@ startDelay  = 0      # Saniye cinsinden algılama oluşunca aktifleşmeden önce
 #   Video sürekli oynayacak.
 #   Ses Kulaklıktan aktarılacak
 
-#Senaryo 4 (2. Senaryoyu kullanınız)
+#Senaryo 4 
 #Kulaklı Ekranlar (Audio)
 #   Düğmeye basıldığında kapana kadar ses kulaklıktan verilecek
 #   {startDelay} sn sonrasında ses başlayacak
@@ -42,18 +43,18 @@ startDelay  = 0      # Saniye cinsinden algılama oluşunca aktifleşmeden önce
 #   {lostInTime} sn eğer kimseyi göremezse ses kesilir.
 #   Video başa döner
 
-#Senaryo 6 (2. Senaryoyu kullanınız)
+#Senaryo 6 
 #Diafon
 #   Düğmeye basıldığında kapana kadar ses kulaklıktan verilecek
 #   {startDelay}  sn sonrasında ses başlayacak
 
-#Senaryo 7 (5. Senaryoyu kullanınız)
+#Senaryo 7
 #Laterna
 #   Sensör algıladığında ses başlar
 #   {lostInTime} sn eğer kimseyi göremezse ses kesilir.
 #   Video başa döner
 
-#Senaryo 8 (1. Senaryoyu kullanınız)
+#Senaryo 8 
 #Bavul Ekranlar
 #   Sensör algıladığında video başlar
 #   {lostInTime} sn eğer kimseyi göremezse video kesilir.

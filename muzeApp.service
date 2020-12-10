@@ -1,0 +1,12 @@
+[Service]
+WorkingDirectory=/home/pi/Project/MuzeApp
+ExecStart=python3 /home/pi/Project/MuzeApp/main.py
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=MuzeApp
+User=pi
+Group=root
+Environment=NODE_ENV=production
+[Install]
+WantedBy=multi-user.target

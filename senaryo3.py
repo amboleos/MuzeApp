@@ -1,26 +1,35 @@
+#!/usr/bin/env python3
+
 #  Senario 2
 #Libraries
 import RPi.GPIO as GPIO
 import time
 import logging 
-from omxplayer.player import OMXPlayer
-from omxplayer.keys import PAUSE,REWIND 
-from pathlib import Path
-from screeninfo import get_monitors
+import random
+import os
 
-from settings import _debug,startDelay
-
-for monitor in get_monitors():
-    print(str(monitor))
+os.remove(r'/tmp/omxplayerdbus.root')
+os.remove(r'/tmp/omxplayerdbus.root.pid')
+time.sleep(3)
 
 LOG_FILENAME='logs.log'
 logging.basicConfig(format='%(asctime)s (%(lineno)d) %(message)s',filename='logs',
 level=logging.DEBUG)
 
-VIDEO_1_PATH = Path("../media.wav")
+from omxplayer.player import OMXPlayer
+from omxplayer.keys import PAUSE,REWIND 
+from pathlib import Path
+
+from trigger import trigger
+from settings import lostInTime,delay,_debug,m_width,limit,scan,startDelay,m_width,m_height
+
 player_log = logging.getLogger("Player 1")
-player = OMXPlayer(VIDEO_1_PATH, args=['--loop','-o', 'both','--no-osd','--win','0 0 ' + str(monitor.width) + ' ' + str(monitor.height)],
-        dbus_name='org.mpris.MediaPlayer2.omxplayer1')
+try:
+    player = OMXPlayer("/home/pi/Projects/MuzeApp/media.mp4", 
+                          args=['--loop','-o', 'both','--no-osd','--win','0 0 '+m_width+' '+m_height]
+                        ,dbus_name='org.mpris.MediaPlayer2.omxplayer1'+str(random.randint(0,99)))
+except Exception as e:
+    print(e)
 player.playEvent += lambda _: player_log.info("Play")
 player.pauseEvent += lambda _: player_log.info("Pause")
 player.stopEvent += lambda _: player_log.info("Stop")
@@ -47,28 +56,10 @@ is_playing = False
 last_position = 0
 if __name__ == '__main__':
     try:
-        LD_Counter= 0
+        player.play()
+        player.set_alpha(100 if _debug else 255 )
         while True:
-            time.sleep(0.05)
-
-            if(GPIO.input(GPIO_BUTTON) == GPIO.HIGH):
-                time.sleep(0.1)
-                if(GPIO.input(GPIO_BUTTON) == GPIO.HIGH):
-                    if(not is_playing):
-                        time.sleep(startDelay)
-                        player.play()
-                        print ("Video has started")
-                        time.sleep(1.1)
-                        is_playing = True
-
-            position = player.position()
-            print (last_position,position)
-            if( last_position - position >1):
-                print ("Video has stopped")
-                player.pause()
-                player.set_position(0.1)
-                is_playing = False
-            last_position  =position
+            pass
 
     
     # Reset by pressing CTRL + C
