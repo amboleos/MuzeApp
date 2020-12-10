@@ -4,7 +4,7 @@ import random
 import time
 
 from distance import distance
-from settings import limit,delay,scan
+from settings import limit,delay,scan,_debug
 
 def trigger(measurements,GPIO_TRIGGER,GPIO_ECHO):
     # Reduce interference posibility with random scan time
@@ -19,11 +19,13 @@ def trigger(measurements,GPIO_TRIGGER,GPIO_ECHO):
         measurements.pop(0)
     measurements.append(dist)
     
-    """ print("Real Delay = %.3f ms" % (real_delay/1000))
-    print ("Measured Distance = %.1f cm" % dist)
-    print ("Calculated Mean = %.1f cm" % statistics.mean(measurements))
-    print ( "Measurements = ",measurements ) """
-
+    if _debug:
+        print("\n\rReal Delay = %.3f ms" % (real_delay/1000))
+        print ("Measured Distance = %.1f cm" % dist)
+        print ("Calculated Mean = %.1f cm" % statistics.mean(measurements))
+        print ( "Measurements = ",measurements )
+    
+    
     # If limit has been passed then trigger action
     if limit > statistics.mean(measurements):
         return True

@@ -1,48 +1,61 @@
+#### MUZE APP Interactif Video ve ses medyalarını oynama uygulaması
+#### Senaryo seçimi ile farklı uygulama alanalarında kullanır.
+#### Bu dosyayıdaki değişkenleri düzenledikten sonra cihazı açıp kapatılması gerekmektedir.
+
+
+#### Ayarlanabilir Değişkenler
+
+_debug      = True  # True veya False yazılır 
 senaryo     = 1      # Seçtiğiniz Senaryo, detaylar için aşağıdaki şartları inceleyin
-limit       = 100    # Santim cinsinden, bu değer ve altı durumlarda algılar
+limit       = 180    # Santim cinsinden, bu değer ve altı durumlarda algılar
 delay       = 200    # Ms cinsinden yaklaşık bir sonraki ölçüm için bekleme.
 scan        = 5      # Kaç ölçüm ortalaması limit değerin altındaysa sistem aktif olur 
 lostInTime  = 5      # Saniye cinsinden algılama kaybedildikten sonra aktif kalma süresi
+startDelay  = 0      # Saniye cinsinden algılama oluşunca aktifleşmeden önceki bekleme
+media_length=100     # Meydanın uzunluğu sn cinsinden
 
-#Senaryo 1 -8
+#### SENARYOLAR
+
+#Senaryo 1
 #Hareket Sensörlü Ekranlar
 #   Sensör algıladığında video başlar
-#   10 sn eğer kimseyi göremezse video kesilir.
+#   {lostInTime} sn eğer kimseyi göremezse video kesilir.
 #   Video başa döner
 
 #Senaryo 2 
 #Butonlu Ekranlar
 #   Düğmeye basıldığında kapanana kadar video oynayacak
+#   {startDelay}  sn sonrasında video başlayacak
 
 #Senaryo 3 
 #Kulaklı Ekranlar (Videolu)
 #   Video sürekli oynayacak.
 #   Ses Kulaklıktan aktarılacak
 
-#Senaryo 4 -2 -6
+#Senaryo 4 (2. Senaryoyu kullanınız)
 #Kulaklı Ekranlar (Audio)
 #   Düğmeye basıldığında kapana kadar ses kulaklıktan verilecek
-#   3 sn sonrasında ses başlayacak
+#   {startDelay} sn sonrasında ses başlayacak
 
-#Senaryo 5 -7
+#Senaryo 5
 #Dev Kulaklık
 #   Sensör algıladığında ses başlar
-#   10 sn eğer kimseyi göremezse ses kesilir.
+#   {lostInTime} sn eğer kimseyi göremezse ses kesilir.
 #   Video başa döner
 
-#Senaryo 6 
+#Senaryo 6 (2. Senaryoyu kullanınız)
 #Diafon
 #   Düğmeye basıldığında kapana kadar ses kulaklıktan verilecek
-#   3 sn sonrasında ses başlayacak
+#   {startDelay}  sn sonrasında ses başlayacak
 
-#Senaryo 7 
+#Senaryo 7 (5. Senaryoyu kullanınız)
 #Laterna
 #   Sensör algıladığında ses başlar
-#   10 sn eğer kimseyi göremezse ses kesilir.
+#   {lostInTime} sn eğer kimseyi göremezse ses kesilir.
 #   Video başa döner
 
-#Senaryo 8
+#Senaryo 8 (1. Senaryoyu kullanınız)
 #Bavul Ekranlar
 #   Sensör algıladığında video başlar
-#   10 sn eğer kimseyi göremezse video kesilir.
+#   {lostInTime} sn eğer kimseyi göremezse video kesilir.
 #   Video başa döner

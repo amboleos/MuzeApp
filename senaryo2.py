@@ -1,4 +1,4 @@
-#  Senario 1
+#  Senario 2
 #Libraries
 import RPi.GPIO as GPIO
 import time
@@ -16,11 +16,11 @@ for monitor in get_monitors():
 
 LOG_FILENAME='logs.log'
 logging.basicConfig(format='%(asctime)s (%(lineno)d) %(message)s',filename='logs',
-level=logging.INFO)
+level=logging.DEBUG)
 
-VIDEO_1_PATH = Path("../media.mp4")
+VIDEO_1_PATH = Path("../black.mp4")
 player_log = logging.getLogger("Player 1")
-player = OMXPlayer(VIDEO_1_PATH, args=['--loop','--no-osd','--win','0 0 ' + str(monitor.width) + ' ' + str(monitor.height)],
+player = OMXPlayer(VIDEO_1_PATH, args=['--no-osd','--win','0 0 ' + str(monitor.width) + ' ' + str(monitor.height)],
         dbus_name='org.mpris.MediaPlayer2.omxplayer1')
 player.playEvent += lambda _: player_log.info("Play")
 player.pauseEvent += lambda _: player_log.info("Pause")
@@ -36,40 +36,38 @@ GPIO.setmode(GPIO.BCM)
 #set GPIO Pins
 GPIO_TRIGGER    = 23
 GPIO_ECHO       = 24
+GPIO_BUTTON     = 4
 
 
 
 #set GPIO direction (IN / OUT)
 GPIO.setup(GPIO_TRIGGER, GPIO.OUT)
 GPIO.setup(GPIO_ECHO, GPIO.IN)
+GPIO.setup(GPIO_BUTTON, GPIO.IN)
 
-measurements = []
-lostDetectionCounterMax = lostInTime*1000 / delay   #Iteration counts for deactivation
 is_playing = False
 global myprocess
 if __name__ == '__main__':
     try:
         LD_Counter= 0
         while True:
-            if(trigger(measurements,GPIO_TRIGGER,GPIO_ECHO)):
-                LD_Counter = lostDetectionCounterMax
-            
-            if( LD_Counter ):
-                LD_Counter -=1
-                print ("LD_Counter = %d " % LD_Counter) if _debug else True
-                if(not is_playing):
-                    player.set_alpha(100 if _debug else 255 ) 
-                    player.play()
-                    print ("Video has started")
-                    is_playing = True
-            else:
-                if(is_playing):
-                    print ("Video has stopped")
-                    player.pause()
-                    player.set_alpha(0)
-                    player.set_position(0)
-                    is_playing = False
+            if(GPIO.input(GPIO_BUTTON) == GPIO.HIGH):
+                time.sleep(0.3)
+                if(GPIO.input(GPIO_BUTTON) == GPIO.HIGH):
+                    if(not is_playing):
+                        player.set_alpha(100 if _debug else 255 ) 
+                        player.play()
+                        print ("Video has started")
+                        is_playing = True
 
+            """             
+            print(player.playback_status())
+            if(player.playback_status() == "Stopped"):
+                print ("Video has stopped")
+                player.pause()
+                player.set_alpha(0)
+                player.set_position(0)
+                is_playing = False """
 
 
     
