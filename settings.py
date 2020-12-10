@@ -12,7 +12,6 @@ delay       = 200    # Ms cinsinden yaklaşık bir sonraki ölçüm için beklem
 scan        = 5      # Kaç ölçüm ortalaması limit değerin altındaysa sistem aktif olur 
 lostInTime  = 5      # Saniye cinsinden algılama kaybedildikten sonra aktif kalma süresi
 startDelay  = 0      # Saniye cinsinden algılama oluşunca aktifleşmeden önceki bekleme
-media_length=100     # Meydanın uzunluğu sn cinsinden
 
 #### SENARYOLAR
 

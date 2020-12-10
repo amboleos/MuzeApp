@@ -20,7 +20,7 @@ level=logging.INFO)
 
 VIDEO_1_PATH = Path("../media.mp4")
 player_log = logging.getLogger("Player 1")
-player = OMXPlayer(VIDEO_1_PATH, args=['--loop','--no-osd','--win','0 0 ' + str(monitor.width) + ' ' + str(monitor.height)],
+player = OMXPlayer(VIDEO_1_PATH, args=['--loop','-o', 'both','--no-osd','--win','0 0 ' + str(monitor.width) + ' ' + str(monitor.height)],
         dbus_name='org.mpris.MediaPlayer2.omxplayer1')
 player.playEvent += lambda _: player_log.info("Play")
 player.pauseEvent += lambda _: player_log.info("Pause")
@@ -46,7 +46,6 @@ GPIO.setup(GPIO_ECHO, GPIO.IN)
 measurements = []
 lostDetectionCounterMax = lostInTime*1000 / delay   #Iteration counts for deactivation
 is_playing = False
-global myprocess
 if __name__ == '__main__':
     try:
         LD_Counter= 0

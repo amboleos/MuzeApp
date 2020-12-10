@@ -17,7 +17,7 @@ LOG_FILENAME='logs.log'
 logging.basicConfig(format='%(asctime)s (%(lineno)d) %(message)s',filename='logs',
 level=logging.DEBUG)
 
-VIDEO_1_PATH = Path("../media.mp4")
+VIDEO_1_PATH = Path("../media.wav")
 player_log = logging.getLogger("Player 1")
 player = OMXPlayer(VIDEO_1_PATH, args=['--loop','-o', 'both','--no-osd','--win','0 0 ' + str(monitor.width) + ' ' + str(monitor.height)],
         dbus_name='org.mpris.MediaPlayer2.omxplayer1')
@@ -27,7 +27,6 @@ player.stopEvent += lambda _: player_log.info("Stop")
 player.action(PAUSE)
 time.sleep(5)
 player.pause()
-player.set_alpha(0)
 
 #GPIO Mode (BOARD / BCM)
 GPIO.setmode(GPIO.BCM)
@@ -57,7 +56,6 @@ if __name__ == '__main__':
                 if(GPIO.input(GPIO_BUTTON) == GPIO.HIGH):
                     if(not is_playing):
                         time.sleep(startDelay)
-                        player.set_alpha(100 if _debug else 255 ) 
                         player.play()
                         print ("Video has started")
                         time.sleep(1.1)
@@ -68,11 +66,9 @@ if __name__ == '__main__':
             if( last_position - position >1):
                 print ("Video has stopped")
                 player.pause()
-                player.set_alpha(0)
-                player.set_position(0)
+                player.set_position(0.1)
                 is_playing = False
-            last_position  = position
-
+            last_position  =position
 
     
     # Reset by pressing CTRL + C
