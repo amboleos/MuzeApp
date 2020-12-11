@@ -8,8 +8,11 @@ import logging
 import random
 import os
 
-os.remove(r'/tmp/omxplayerdbus.root')
-os.remove(r'/tmp/omxplayerdbus.root.pid')
+try:
+    os.remove(r'/tmp/omxplayerdbus.root')
+    os.remove(r'/tmp/omxplayerdbus.root.pid')
+except:
+    pass
 time.sleep(3)
 
 LOG_FILENAME='logs.log'
