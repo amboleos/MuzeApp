@@ -71,17 +71,12 @@ if __name__ == '__main__':
                         print ("Video has started")
                         time.sleep(1.1)
                         is_playing = True
-
-            position = player.position()
-            print (last_position,position) if _debug else True
-            if( last_position - position >1):
-                print ("Video has stopped")
-                player.pause()
-                player.set_position(0)
-                is_playing = False
-            last_position  = position
-
-
+                    
+                    if(is_playing):
+                        print ("Video has stopped")
+                        player.pause()
+                        player.set_position(0)
+                        is_playing = False
     
     # Reset by pressing CTRL + C
     except KeyboardInterrupt:
