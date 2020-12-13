@@ -71,12 +71,17 @@ if __name__ == '__main__':
                         print ("Video has started")
                         time.sleep(1.1)
                         is_playing = True
-                    
+                        
+            
+            if(GPIO.input(GPIO_BUTTON) == GPIO.LOW):
+                time.sleep(0.1)
+                if(GPIO.input(GPIO_BUTTON) == GPIO.LOW):        
                     if(is_playing):
                         print ("Video has stopped")
                         player.pause()
                         player.set_position(0)
                         is_playing = False
+
     
     # Reset by pressing CTRL + C
     except KeyboardInterrupt:
