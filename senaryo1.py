@@ -74,9 +74,12 @@ if __name__ == '__main__':
             else:
                 if(is_playing):
                     print ("Video has stopped")
-                    player.pause()
-                    player.set_alpha(0)
                     player.set_position(0)
+                    player.set_alpha(0)                    
+                    position = player.position()
+                    time.sleep(0.25)                    
+                    print("player.position()" , player.position())
+                    player.pause()
                     is_playing = False
 
 

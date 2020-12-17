@@ -5,7 +5,7 @@
 
 #### Ayarlanabilir Değişkenler
 
-_debug      = False  # True veya False yazılır 
+_debug      = True  # True veya False yazılır 
 limit       = 180    # Santim cinsinden, bu değer ve altı durumlarda algılar
 delay       = 200    # Ms cinsinden yaklaşık bir sonraki ölçüm için bekleme.
 scan        = 5      # Kaç ölçüm ortalaması limit değerin altındaysa sistem aktif olur 

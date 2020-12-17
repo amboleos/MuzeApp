@@ -97,3 +97,4 @@ if __name__ == '__main__':
         # logging.debug(e)
         GPIO.cleanup()
         player.quit()
+
