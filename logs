@@ -1,0 +1,491 @@
+2020-12-22 16:42:15,876 (124) Instantiating OMXPlayer
+2020-12-22 16:42:15,879 (13) BusFinder initialised with path: None
+2020-12-22 16:42:15,880 (204) Setting up OMXPlayer process
+2020-12-22 16:42:15,882 (182) Opening omxplayer with the command: ['omxplayer', '--loop', '--vol', '-2000', '-o', 'both', '--no-osd', '--win', '0 0 1920 1080', '/home/pi/Projects/MuzeApp/media.mp4', '--dbus_name', 'org.mpris.MediaPlayer2.omxplayer148']
+2020-12-22 16:42:15,907 (208) Process opened with PID 1549
+2020-12-22 16:42:15,908 (222) Trying to connect to OMXPlayer via DBus
+2020-12-22 16:42:15,910 (225) DBus connect attempt: 0
+2020-12-22 16:42:15,968 (17) Opening file at /tmp/omxplayerdbus.pi
+2020-12-22 16:42:15,969 (19) Opened file at /tmp/omxplayerdbus.pi
+2020-12-22 16:42:15,970 (21) Address 'unix:abstract=/tmp/dbus-psI8hEb1zh,guid=c324f92e0c843cacf117b51f5fe1f509' parsed from file
+2020-12-22 16:42:15,974 (217) SIGTERM Sent to pid: 1549
+2020-12-22 16:42:15,977 (167) OMXPlayer process is dead, all DBus calls from here will fail
+2020-12-22 16:42:15,978 (867) Quit was called after self._process had already been released
+2020-12-22 16:42:22,421 (124) Instantiating OMXPlayer
+2020-12-22 16:42:22,422 (13) BusFinder initialised with path: None
+2020-12-22 16:42:22,423 (204) Setting up OMXPlayer process
+2020-12-22 16:42:22,424 (182) Opening omxplayer with the command: ['omxplayer', '--loop', '--vol', '-2000', '-o', 'both', '--no-osd', '--win', '0 0 1920 1080', '/home/pi/Projects/MuzeApp/media.mp4', '--dbus_name', 'org.mpris.MediaPlayer2.omxplayer158']
+2020-12-22 16:42:22,442 (208) Process opened with PID 1562
+2020-12-22 16:42:22,444 (222) Trying to connect to OMXPlayer via DBus
+2020-12-22 16:42:22,444 (225) DBus connect attempt: 0
+2020-12-22 16:42:22,500 (17) Opening file at /tmp/omxplayerdbus.pi
+2020-12-22 16:42:22,501 (19) Opened file at /tmp/omxplayerdbus.pi
+2020-12-22 16:42:22,502 (21) Address 'unix:abstract=/tmp/dbus-psI8hEb1zh,guid=c324f92e0c843cacf117b51f5fe1f509' parsed from file
+2020-12-22 16:42:22,505 (217) SIGTERM Sent to pid: 1562
+2020-12-22 16:42:22,507 (167) OMXPlayer process is dead, all DBus calls from here will fail
+2020-12-22 16:42:22,509 (867) Quit was called after self._process had already been released
+2020-12-22 16:42:26,966 (124) Instantiating OMXPlayer
+2020-12-22 16:42:26,967 (13) BusFinder initialised with path: None
+2020-12-22 16:42:26,967 (204) Setting up OMXPlayer process
+2020-12-22 16:42:26,968 (182) Opening omxplayer with the command: ['omxplayer', '--loop', '--vol', '-2000', '-o', 'both', '--no-osd', '--win', '0 0 1920 1080', '/home/pi/Projects/MuzeApp/media.mp4', '--dbus_name', 'org.mpris.MediaPlayer2.omxplayer149']
+2020-12-22 16:42:26,980 (208) Process opened with PID 1574
+2020-12-22 16:42:26,981 (222) Trying to connect to OMXPlayer via DBus
+2020-12-22 16:42:26,981 (225) DBus connect attempt: 0
+2020-12-22 16:42:27,035 (17) Opening file at /tmp/omxplayerdbus.pi
+2020-12-22 16:42:27,036 (19) Opened file at /tmp/omxplayerdbus.pi
+2020-12-22 16:42:27,037 (21) Address 'unix:abstract=/tmp/dbus-psI8hEb1zh,guid=c324f92e0c843cacf117b51f5fe1f509' parsed from file
+2020-12-22 16:42:27,041 (217) SIGTERM Sent to pid: 1574
+2020-12-22 16:42:27,043 (167) OMXPlayer process is dead, all DBus calls from here will fail
+2020-12-22 16:42:27,046 (867) Quit was called after self._process had already been released
+2020-12-22 16:42:32,385 (124) Instantiating OMXPlayer
+2020-12-22 16:42:32,386 (13) BusFinder initialised with path: None
+2020-12-22 16:42:32,394 (204) Setting up OMXPlayer process
+2020-12-22 16:42:32,395 (182) Opening omxplayer with the command: ['omxplayer', '--loop', '--vol', '-2000', '-o', 'both', '--no-osd', '--win', '0 0 1920 1080', '/home/pi/Projects/MuzeApp/media.mp4', '--dbus_name', 'org.mpris.MediaPlayer2.omxplayer151']
+2020-12-22 16:42:32,406 (208) Process opened with PID 1587
+2020-12-22 16:42:32,407 (222) Trying to connect to OMXPlayer via DBus
+2020-12-22 16:42:32,408 (225) DBus connect attempt: 0
+2020-12-22 16:42:32,461 (17) Opening file at /tmp/omxplayerdbus.pi
+2020-12-22 16:42:32,463 (19) Opened file at /tmp/omxplayerdbus.pi
+2020-12-22 16:42:32,464 (21) Address 'unix:abstract=/tmp/dbus-psI8hEb1zh,guid=c324f92e0c843cacf117b51f5fe1f509' parsed from file
+2020-12-22 16:42:32,470 (217) SIGTERM Sent to pid: 1587
+2020-12-22 16:42:32,472 (167) OMXPlayer process is dead, all DBus calls from here will fail
+2020-12-22 16:42:32,474 (867) Quit was called after self._process had already been released
+2020-12-22 16:44:15,950 (124) Instantiating OMXPlayer
+2020-12-22 16:44:15,951 (13) BusFinder initialised with path: None
+2020-12-22 16:44:15,952 (204) Setting up OMXPlayer process
+2020-12-22 16:44:15,953 (182) Opening omxplayer with the command: ['omxplayer', '--loop', '--vol', '-2000', '-o', 'both', '--no-osd', '--win', '0 0 1920 1080', '/home/pi/Projects/MuzeApp/media.mp4', '--dbus_name', 'org.mpris.MediaPlayer2.omxplayer173']
+2020-12-22 16:44:15,970 (208) Process opened with PID 1624
+2020-12-22 16:44:15,971 (222) Trying to connect to OMXPlayer via DBus
+2020-12-22 16:44:15,972 (225) DBus connect attempt: 0
+2020-12-22 16:44:16,029 (17) Opening file at /tmp/omxplayerdbus.pi
+2020-12-22 16:44:16,030 (19) Opened file at /tmp/omxplayerdbus.pi
+2020-12-22 16:44:16,031 (21) Address 'unix:abstract=/tmp/dbus-psI8hEb1zh,guid=c324f92e0c843cacf117b51f5fe1f509' parsed from file
+2020-12-22 16:44:16,035 (217) SIGTERM Sent to pid: 1624
+2020-12-22 16:44:16,038 (167) OMXPlayer process is dead, all DBus calls from here will fail
+2020-12-22 16:44:16,039 (867) Quit was called after self._process had already been released
+2020-12-22 16:44:30,218 (124) Instantiating OMXPlayer
+2020-12-22 16:44:30,219 (13) BusFinder initialised with path: None
+2020-12-22 16:44:30,220 (204) Setting up OMXPlayer process
+2020-12-22 16:44:30,221 (182) Opening omxplayer with the command: ['omxplayer', '--loop', '--vol', '-2000', '-o', 'both', '--no-osd', '--win', '0 0 1920 1080', '/home/pi/Projects/MuzeApp/media.mp4', '--dbus_name', 'org.mpris.MediaPlayer2.omxplayer162']
+2020-12-22 16:44:30,237 (208) Process opened with PID 1638
+2020-12-22 16:44:30,239 (222) Trying to connect to OMXPlayer via DBus
+2020-12-22 16:44:30,240 (225) DBus connect attempt: 0
+2020-12-22 16:44:30,345 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:30,347 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:30,350 (21) Address 'unix:abstract=/tmp/dbus-JVQZJB3CKk,guid=71d13c3ed035d18b0ca0775b5fe1f83e' parsed from file
+2020-12-22 16:44:30,359 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:44:30,411 (225) DBus connect attempt: 1
+2020-12-22 16:44:30,412 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:30,413 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:30,414 (21) Address 'unix:abstract=/tmp/dbus-JVQZJB3CKk,guid=71d13c3ed035d18b0ca0775b5fe1f83e' parsed from file
+2020-12-22 16:44:30,420 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:44:30,471 (225) DBus connect attempt: 2
+2020-12-22 16:44:30,472 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:30,473 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:30,474 (21) Address 'unix:abstract=/tmp/dbus-JVQZJB3CKk,guid=71d13c3ed035d18b0ca0775b5fe1f83e' parsed from file
+2020-12-22 16:44:30,480 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:44:30,532 (225) DBus connect attempt: 3
+2020-12-22 16:44:30,533 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:30,534 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:30,534 (21) Address 'unix:abstract=/tmp/dbus-JVQZJB3CKk,guid=71d13c3ed035d18b0ca0775b5fe1f83e' parsed from file
+2020-12-22 16:44:30,541 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:44:30,592 (225) DBus connect attempt: 4
+2020-12-22 16:44:30,593 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:30,594 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:30,595 (21) Address 'unix:abstract=/tmp/dbus-JVQZJB3CKk,guid=71d13c3ed035d18b0ca0775b5fe1f83e' parsed from file
+2020-12-22 16:44:30,602 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:44:30,653 (225) DBus connect attempt: 5
+2020-12-22 16:44:30,654 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:30,655 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:30,656 (21) Address 'unix:abstract=/tmp/dbus-JVQZJB3CKk,guid=71d13c3ed035d18b0ca0775b5fe1f83e' parsed from file
+2020-12-22 16:44:30,662 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:44:30,713 (225) DBus connect attempt: 6
+2020-12-22 16:44:30,714 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:30,715 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:30,715 (21) Address 'unix:abstract=/tmp/dbus-JVQZJB3CKk,guid=71d13c3ed035d18b0ca0775b5fe1f83e' parsed from file
+2020-12-22 16:44:30,721 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:44:30,772 (225) DBus connect attempt: 7
+2020-12-22 16:44:30,774 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:30,774 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:30,775 (21) Address 'unix:abstract=/tmp/dbus-JVQZJB3CKk,guid=71d13c3ed035d18b0ca0775b5fe1f83e' parsed from file
+2020-12-22 16:44:30,781 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:44:30,832 (225) DBus connect attempt: 8
+2020-12-22 16:44:30,833 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:30,834 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:30,834 (21) Address 'unix:abstract=/tmp/dbus-JVQZJB3CKk,guid=71d13c3ed035d18b0ca0775b5fe1f83e' parsed from file
+2020-12-22 16:44:30,840 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:44:30,892 (225) DBus connect attempt: 9
+2020-12-22 16:44:30,893 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:30,894 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:30,894 (21) Address 'unix:abstract=/tmp/dbus-JVQZJB3CKk,guid=71d13c3ed035d18b0ca0775b5fe1f83e' parsed from file
+2020-12-22 16:44:30,900 (229) Connected to OMXPlayer at DBus address: <omxplayer.dbus_connection.DBusConnection object at 0x75f81810>
+2020-12-22 16:44:35,906 (42) Checking if process is still alive
+2020-12-22 16:44:35,907 (47) OMXPlayer is running, so execute pause
+2020-12-22 16:44:35,926 (37) Pause
+2020-12-22 16:44:35,927 (42) Checking if process is still alive
+2020-12-22 16:44:35,928 (47) OMXPlayer is running, so execute set_alpha
+2020-12-22 16:44:52,635 (92) Measurement stopped by User
+2020-12-22 16:44:52,638 (870) Quitting OMXPlayer
+2020-12-22 16:44:52,639 (217) SIGTERM Sent to pid: 1638
+2020-12-22 16:44:52,641 (167) OMXPlayer process is dead, all DBus calls from here will fail
+2020-12-22 16:44:52,643 (867) Quit was called after self._process had already been released
+2020-12-22 16:44:57,744 (124) Instantiating OMXPlayer
+2020-12-22 16:44:57,746 (13) BusFinder initialised with path: None
+2020-12-22 16:44:57,752 (204) Setting up OMXPlayer process
+2020-12-22 16:44:57,753 (182) Opening omxplayer with the command: ['omxplayer', '--loop', '--vol', '-4000', '-o', 'both', '--no-osd', '--win', '0 0 1920 1080', '/home/pi/Projects/MuzeApp/media.mp4', '--dbus_name', 'org.mpris.MediaPlayer2.omxplayer167']
+2020-12-22 16:44:57,769 (208) Process opened with PID 1670
+2020-12-22 16:44:57,771 (222) Trying to connect to OMXPlayer via DBus
+2020-12-22 16:44:57,771 (225) DBus connect attempt: 0
+2020-12-22 16:44:57,928 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:57,930 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:57,931 (21) Address 'unix:abstract=/tmp/dbus-B0LR6MObxB,guid=bd1f70aff4ea46fcda3a6b435fe1f859' parsed from file
+2020-12-22 16:44:57,939 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:44:57,990 (225) DBus connect attempt: 1
+2020-12-22 16:44:57,992 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:57,993 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:57,993 (21) Address 'unix:abstract=/tmp/dbus-B0LR6MObxB,guid=bd1f70aff4ea46fcda3a6b435fe1f859' parsed from file
+2020-12-22 16:44:58,001 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:44:58,052 (225) DBus connect attempt: 2
+2020-12-22 16:44:58,053 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:58,054 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:58,055 (21) Address 'unix:abstract=/tmp/dbus-B0LR6MObxB,guid=bd1f70aff4ea46fcda3a6b435fe1f859' parsed from file
+2020-12-22 16:44:58,062 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:44:58,113 (225) DBus connect attempt: 3
+2020-12-22 16:44:58,114 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:58,115 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:58,115 (21) Address 'unix:abstract=/tmp/dbus-B0LR6MObxB,guid=bd1f70aff4ea46fcda3a6b435fe1f859' parsed from file
+2020-12-22 16:44:58,122 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:44:58,173 (225) DBus connect attempt: 4
+2020-12-22 16:44:58,174 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:58,175 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:58,176 (21) Address 'unix:abstract=/tmp/dbus-B0LR6MObxB,guid=bd1f70aff4ea46fcda3a6b435fe1f859' parsed from file
+2020-12-22 16:44:58,182 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:44:58,233 (225) DBus connect attempt: 5
+2020-12-22 16:44:58,234 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:58,235 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:58,236 (21) Address 'unix:abstract=/tmp/dbus-B0LR6MObxB,guid=bd1f70aff4ea46fcda3a6b435fe1f859' parsed from file
+2020-12-22 16:44:58,242 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:44:58,293 (225) DBus connect attempt: 6
+2020-12-22 16:44:58,294 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:58,295 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:58,295 (21) Address 'unix:abstract=/tmp/dbus-B0LR6MObxB,guid=bd1f70aff4ea46fcda3a6b435fe1f859' parsed from file
+2020-12-22 16:44:58,302 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:44:58,353 (225) DBus connect attempt: 7
+2020-12-22 16:44:58,354 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:58,355 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:58,356 (21) Address 'unix:abstract=/tmp/dbus-B0LR6MObxB,guid=bd1f70aff4ea46fcda3a6b435fe1f859' parsed from file
+2020-12-22 16:44:58,362 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:44:58,413 (225) DBus connect attempt: 8
+2020-12-22 16:44:58,414 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:58,416 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:44:58,416 (21) Address 'unix:abstract=/tmp/dbus-B0LR6MObxB,guid=bd1f70aff4ea46fcda3a6b435fe1f859' parsed from file
+2020-12-22 16:44:58,422 (229) Connected to OMXPlayer at DBus address: <omxplayer.dbus_connection.DBusConnection object at 0x75ec5830>
+2020-12-22 16:45:09,300 (870) Quitting OMXPlayer
+2020-12-22 16:45:09,303 (217) SIGTERM Sent to pid: 1670
+2020-12-22 16:45:09,304 (167) OMXPlayer process is dead, all DBus calls from here will fail
+2020-12-22 16:45:47,146 (124) Instantiating OMXPlayer
+2020-12-22 16:45:47,147 (13) BusFinder initialised with path: None
+2020-12-22 16:45:47,148 (204) Setting up OMXPlayer process
+2020-12-22 16:45:47,149 (182) Opening omxplayer with the command: ['omxplayer', '--loop', '--vol', '600', '-o', 'both', '--no-osd', '--win', '0 0 1920 1080', '/home/pi/Projects/MuzeApp/media.mp4', '--dbus_name', 'org.mpris.MediaPlayer2.omxplayer168']
+2020-12-22 16:45:47,166 (208) Process opened with PID 1702
+2020-12-22 16:45:47,167 (222) Trying to connect to OMXPlayer via DBus
+2020-12-22 16:45:47,167 (225) DBus connect attempt: 0
+2020-12-22 16:45:47,273 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:45:47,275 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:45:47,276 (21) Address 'unix:abstract=/tmp/dbus-lhkZn6npya,guid=4b52f32b308aa896db40a54d5fe1f88b' parsed from file
+2020-12-22 16:45:47,286 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:45:47,338 (225) DBus connect attempt: 1
+2020-12-22 16:45:47,339 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:45:47,340 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:45:47,341 (21) Address 'unix:abstract=/tmp/dbus-lhkZn6npya,guid=4b52f32b308aa896db40a54d5fe1f88b' parsed from file
+2020-12-22 16:45:47,349 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:45:47,401 (225) DBus connect attempt: 2
+2020-12-22 16:45:47,402 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:45:47,403 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:45:47,403 (21) Address 'unix:abstract=/tmp/dbus-lhkZn6npya,guid=4b52f32b308aa896db40a54d5fe1f88b' parsed from file
+2020-12-22 16:45:47,413 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:45:47,464 (225) DBus connect attempt: 3
+2020-12-22 16:45:47,465 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:45:47,466 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:45:47,467 (21) Address 'unix:abstract=/tmp/dbus-lhkZn6npya,guid=4b52f32b308aa896db40a54d5fe1f88b' parsed from file
+2020-12-22 16:45:47,475 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:45:47,526 (225) DBus connect attempt: 4
+2020-12-22 16:45:47,527 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:45:47,528 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:45:47,529 (21) Address 'unix:abstract=/tmp/dbus-lhkZn6npya,guid=4b52f32b308aa896db40a54d5fe1f88b' parsed from file
+2020-12-22 16:45:47,538 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:45:47,589 (225) DBus connect attempt: 5
+2020-12-22 16:45:47,590 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:45:47,591 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:45:47,591 (21) Address 'unix:abstract=/tmp/dbus-lhkZn6npya,guid=4b52f32b308aa896db40a54d5fe1f88b' parsed from file
+2020-12-22 16:45:47,598 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:45:47,650 (225) DBus connect attempt: 6
+2020-12-22 16:45:47,651 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:45:47,651 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:45:47,652 (21) Address 'unix:abstract=/tmp/dbus-lhkZn6npya,guid=4b52f32b308aa896db40a54d5fe1f88b' parsed from file
+2020-12-22 16:45:47,658 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:45:47,709 (225) DBus connect attempt: 7
+2020-12-22 16:45:47,710 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:45:47,711 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:45:47,713 (21) Address 'unix:abstract=/tmp/dbus-lhkZn6npya,guid=4b52f32b308aa896db40a54d5fe1f88b' parsed from file
+2020-12-22 16:45:47,719 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:45:47,770 (225) DBus connect attempt: 8
+2020-12-22 16:45:47,771 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:45:47,772 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:45:47,773 (21) Address 'unix:abstract=/tmp/dbus-lhkZn6npya,guid=4b52f32b308aa896db40a54d5fe1f88b' parsed from file
+2020-12-22 16:45:47,779 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:45:47,830 (225) DBus connect attempt: 9
+2020-12-22 16:45:47,831 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:45:47,832 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:45:47,833 (21) Address 'unix:abstract=/tmp/dbus-lhkZn6npya,guid=4b52f32b308aa896db40a54d5fe1f88b' parsed from file
+2020-12-22 16:45:47,840 (229) Connected to OMXPlayer at DBus address: <omxplayer.dbus_connection.DBusConnection object at 0x75fa17f0>
+2020-12-22 16:45:51,974 (870) Quitting OMXPlayer
+2020-12-22 16:45:51,977 (217) SIGTERM Sent to pid: 1702
+2020-12-22 16:45:51,979 (167) OMXPlayer process is dead, all DBus calls from here will fail
+2020-12-22 16:47:21,662 (124) Instantiating OMXPlayer
+2020-12-22 16:47:21,663 (13) BusFinder initialised with path: None
+2020-12-22 16:47:21,664 (204) Setting up OMXPlayer process
+2020-12-22 16:47:21,665 (182) Opening omxplayer with the command: ['omxplayer', '--loop', '--vol', '-4000', '-o', 'both', '--no-osd', '--win', '0 0 1920 1080', '/home/pi/Projects/MuzeApp/media.mp4', '--dbus_name', 'org.mpris.MediaPlayer2.omxplayer199']
+2020-12-22 16:47:21,682 (208) Process opened with PID 1748
+2020-12-22 16:47:21,683 (222) Trying to connect to OMXPlayer via DBus
+2020-12-22 16:47:21,683 (225) DBus connect attempt: 0
+2020-12-22 16:47:21,791 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:21,793 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:21,794 (21) Address 'unix:abstract=/tmp/dbus-LU0bXzZiJS,guid=f3b56a266fce8bc8e4a251785fe1f8e9' parsed from file
+2020-12-22 16:47:21,805 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:47:21,856 (225) DBus connect attempt: 1
+2020-12-22 16:47:21,857 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:21,858 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:21,859 (21) Address 'unix:abstract=/tmp/dbus-LU0bXzZiJS,guid=f3b56a266fce8bc8e4a251785fe1f8e9' parsed from file
+2020-12-22 16:47:21,866 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:47:21,922 (225) DBus connect attempt: 2
+2020-12-22 16:47:21,923 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:21,924 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:21,925 (21) Address 'unix:abstract=/tmp/dbus-LU0bXzZiJS,guid=f3b56a266fce8bc8e4a251785fe1f8e9' parsed from file
+2020-12-22 16:47:21,934 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:47:21,987 (225) DBus connect attempt: 3
+2020-12-22 16:47:21,988 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:21,988 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:21,989 (21) Address 'unix:abstract=/tmp/dbus-LU0bXzZiJS,guid=f3b56a266fce8bc8e4a251785fe1f8e9' parsed from file
+2020-12-22 16:47:21,996 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:47:22,048 (225) DBus connect attempt: 4
+2020-12-22 16:47:22,050 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:22,050 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:22,051 (21) Address 'unix:abstract=/tmp/dbus-LU0bXzZiJS,guid=f3b56a266fce8bc8e4a251785fe1f8e9' parsed from file
+2020-12-22 16:47:22,058 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:47:22,110 (225) DBus connect attempt: 5
+2020-12-22 16:47:22,111 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:22,112 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:22,113 (21) Address 'unix:abstract=/tmp/dbus-LU0bXzZiJS,guid=f3b56a266fce8bc8e4a251785fe1f8e9' parsed from file
+2020-12-22 16:47:22,119 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:47:22,171 (225) DBus connect attempt: 6
+2020-12-22 16:47:22,172 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:22,173 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:22,173 (21) Address 'unix:abstract=/tmp/dbus-LU0bXzZiJS,guid=f3b56a266fce8bc8e4a251785fe1f8e9' parsed from file
+2020-12-22 16:47:22,180 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:47:22,232 (225) DBus connect attempt: 7
+2020-12-22 16:47:22,233 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:22,234 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:22,234 (21) Address 'unix:abstract=/tmp/dbus-LU0bXzZiJS,guid=f3b56a266fce8bc8e4a251785fe1f8e9' parsed from file
+2020-12-22 16:47:22,244 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:47:22,296 (225) DBus connect attempt: 8
+2020-12-22 16:47:22,297 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:22,298 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:22,299 (21) Address 'unix:abstract=/tmp/dbus-LU0bXzZiJS,guid=f3b56a266fce8bc8e4a251785fe1f8e9' parsed from file
+2020-12-22 16:47:22,305 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:47:22,357 (225) DBus connect attempt: 9
+2020-12-22 16:47:22,358 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:22,359 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:22,360 (21) Address 'unix:abstract=/tmp/dbus-LU0bXzZiJS,guid=f3b56a266fce8bc8e4a251785fe1f8e9' parsed from file
+2020-12-22 16:47:22,365 (229) Connected to OMXPlayer at DBus address: <omxplayer.dbus_connection.DBusConnection object at 0x75ed17f0>
+2020-12-22 16:47:27,372 (42) Checking if process is still alive
+2020-12-22 16:47:27,373 (47) OMXPlayer is running, so execute pause
+2020-12-22 16:47:27,382 (37) Pause
+2020-12-22 16:47:27,383 (42) Checking if process is still alive
+2020-12-22 16:47:27,383 (47) OMXPlayer is running, so execute set_alpha
+2020-12-22 16:47:32,642 (92) Measurement stopped by User
+2020-12-22 16:47:32,643 (870) Quitting OMXPlayer
+2020-12-22 16:47:32,648 (217) SIGTERM Sent to pid: 1748
+2020-12-22 16:47:32,650 (167) OMXPlayer process is dead, all DBus calls from here will fail
+2020-12-22 16:47:32,652 (867) Quit was called after self._process had already been released
+2020-12-22 16:47:47,143 (124) Instantiating OMXPlayer
+2020-12-22 16:47:47,143 (13) BusFinder initialised with path: None
+2020-12-22 16:47:47,144 (204) Setting up OMXPlayer process
+2020-12-22 16:47:47,145 (182) Opening omxplayer with the command: ['omxplayer', '--loop', '--vol', '-3000', '-o', 'both', '--no-osd', '--win', '0 0 1920 1080', '/home/pi/Projects/MuzeApp/media.mp4', '--dbus_name', 'org.mpris.MediaPlayer2.omxplayer148']
+2020-12-22 16:47:47,156 (208) Process opened with PID 1778
+2020-12-22 16:47:47,157 (222) Trying to connect to OMXPlayer via DBus
+2020-12-22 16:47:47,158 (225) DBus connect attempt: 0
+2020-12-22 16:47:47,264 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:47,265 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:47,266 (21) Address 'unix:abstract=/tmp/dbus-BQHhBhZzXs,guid=4ab1363134b3fbbfb8a4a8f15fe1f903' parsed from file
+2020-12-22 16:47:47,276 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:47:47,328 (225) DBus connect attempt: 1
+2020-12-22 16:47:47,329 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:47,330 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:47,331 (21) Address 'unix:abstract=/tmp/dbus-BQHhBhZzXs,guid=4ab1363134b3fbbfb8a4a8f15fe1f903' parsed from file
+2020-12-22 16:47:47,337 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:47:47,388 (225) DBus connect attempt: 2
+2020-12-22 16:47:47,389 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:47,390 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:47,391 (21) Address 'unix:abstract=/tmp/dbus-BQHhBhZzXs,guid=4ab1363134b3fbbfb8a4a8f15fe1f903' parsed from file
+2020-12-22 16:47:47,397 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:47:47,449 (225) DBus connect attempt: 3
+2020-12-22 16:47:47,450 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:47,450 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:47,451 (21) Address 'unix:abstract=/tmp/dbus-BQHhBhZzXs,guid=4ab1363134b3fbbfb8a4a8f15fe1f903' parsed from file
+2020-12-22 16:47:47,457 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:47:47,509 (225) DBus connect attempt: 4
+2020-12-22 16:47:47,510 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:47,511 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:47,512 (21) Address 'unix:abstract=/tmp/dbus-BQHhBhZzXs,guid=4ab1363134b3fbbfb8a4a8f15fe1f903' parsed from file
+2020-12-22 16:47:47,518 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:47:47,570 (225) DBus connect attempt: 5
+2020-12-22 16:47:47,571 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:47,572 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:47,573 (21) Address 'unix:abstract=/tmp/dbus-BQHhBhZzXs,guid=4ab1363134b3fbbfb8a4a8f15fe1f903' parsed from file
+2020-12-22 16:47:47,578 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:47:47,630 (225) DBus connect attempt: 6
+2020-12-22 16:47:47,631 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:47,631 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:47,632 (21) Address 'unix:abstract=/tmp/dbus-BQHhBhZzXs,guid=4ab1363134b3fbbfb8a4a8f15fe1f903' parsed from file
+2020-12-22 16:47:47,638 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:47:47,689 (225) DBus connect attempt: 7
+2020-12-22 16:47:47,690 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:47,691 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:47,692 (21) Address 'unix:abstract=/tmp/dbus-BQHhBhZzXs,guid=4ab1363134b3fbbfb8a4a8f15fe1f903' parsed from file
+2020-12-22 16:47:47,697 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:47:47,749 (225) DBus connect attempt: 8
+2020-12-22 16:47:47,750 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:47,750 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:47,751 (21) Address 'unix:abstract=/tmp/dbus-BQHhBhZzXs,guid=4ab1363134b3fbbfb8a4a8f15fe1f903' parsed from file
+2020-12-22 16:47:47,757 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 16:47:47,808 (225) DBus connect attempt: 9
+2020-12-22 16:47:47,809 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:47,810 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 16:47:47,811 (21) Address 'unix:abstract=/tmp/dbus-BQHhBhZzXs,guid=4ab1363134b3fbbfb8a4a8f15fe1f903' parsed from file
+2020-12-22 16:47:47,815 (229) Connected to OMXPlayer at DBus address: <omxplayer.dbus_connection.DBusConnection object at 0x75efc7f0>
+2020-12-22 16:47:52,817 (42) Checking if process is still alive
+2020-12-22 16:47:52,818 (47) OMXPlayer is running, so execute pause
+2020-12-22 16:47:52,832 (37) Pause
+2020-12-22 16:47:52,833 (42) Checking if process is still alive
+2020-12-22 16:47:52,834 (47) OMXPlayer is running, so execute set_alpha
+2020-12-22 16:48:34,196 (92) Measurement stopped by User
+2020-12-22 16:48:34,198 (870) Quitting OMXPlayer
+2020-12-22 16:48:34,201 (217) SIGTERM Sent to pid: 1778
+2020-12-22 16:48:34,203 (167) OMXPlayer process is dead, all DBus calls from here will fail
+2020-12-22 16:48:34,206 (867) Quit was called after self._process had already been released
+2020-12-22 17:08:20,017 (124) Instantiating OMXPlayer
+2020-12-22 17:08:20,018 (13) BusFinder initialised with path: None
+2020-12-22 17:08:20,019 (204) Setting up OMXPlayer process
+2020-12-22 17:08:20,020 (182) Opening omxplayer with the command: ['omxplayer', '--loop', '--vol', '-2000', '-o', 'both', '--no-osd', '--win', '0 0 1920 1080', '/home/pi/Projects/MuzeApp/media.mp4', '--dbus_name', 'org.mpris.MediaPlayer2.omxplayer126']
+2020-12-22 17:08:20,040 (208) Process opened with PID 1881
+2020-12-22 17:08:20,041 (222) Trying to connect to OMXPlayer via DBus
+2020-12-22 17:08:20,042 (225) DBus connect attempt: 0
+2020-12-22 17:08:20,202 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:20,203 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:20,204 (21) Address 'unix:abstract=/tmp/dbus-CdaRcFA1pK,guid=11b039660e9b3f7c670f00f05fe1fdd4' parsed from file
+2020-12-22 17:08:20,214 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 17:08:20,266 (225) DBus connect attempt: 1
+2020-12-22 17:08:20,267 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:20,268 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:20,268 (21) Address 'unix:abstract=/tmp/dbus-CdaRcFA1pK,guid=11b039660e9b3f7c670f00f05fe1fdd4' parsed from file
+2020-12-22 17:08:20,275 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 17:08:20,326 (225) DBus connect attempt: 2
+2020-12-22 17:08:20,328 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:20,329 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:20,329 (21) Address 'unix:abstract=/tmp/dbus-CdaRcFA1pK,guid=11b039660e9b3f7c670f00f05fe1fdd4' parsed from file
+2020-12-22 17:08:20,336 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 17:08:20,387 (225) DBus connect attempt: 3
+2020-12-22 17:08:20,388 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:20,390 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:20,390 (21) Address 'unix:abstract=/tmp/dbus-CdaRcFA1pK,guid=11b039660e9b3f7c670f00f05fe1fdd4' parsed from file
+2020-12-22 17:08:20,397 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 17:08:20,449 (225) DBus connect attempt: 4
+2020-12-22 17:08:20,450 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:20,451 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:20,452 (21) Address 'unix:abstract=/tmp/dbus-CdaRcFA1pK,guid=11b039660e9b3f7c670f00f05fe1fdd4' parsed from file
+2020-12-22 17:08:20,458 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 17:08:20,509 (225) DBus connect attempt: 5
+2020-12-22 17:08:20,511 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:20,512 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:20,513 (21) Address 'unix:abstract=/tmp/dbus-CdaRcFA1pK,guid=11b039660e9b3f7c670f00f05fe1fdd4' parsed from file
+2020-12-22 17:08:20,521 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 17:08:20,573 (225) DBus connect attempt: 6
+2020-12-22 17:08:20,574 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:20,575 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:20,576 (21) Address 'unix:abstract=/tmp/dbus-CdaRcFA1pK,guid=11b039660e9b3f7c670f00f05fe1fdd4' parsed from file
+2020-12-22 17:08:20,582 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 17:08:20,633 (225) DBus connect attempt: 7
+2020-12-22 17:08:20,634 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:20,637 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:20,638 (21) Address 'unix:abstract=/tmp/dbus-CdaRcFA1pK,guid=11b039660e9b3f7c670f00f05fe1fdd4' parsed from file
+2020-12-22 17:08:20,645 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 17:08:20,696 (225) DBus connect attempt: 8
+2020-12-22 17:08:20,697 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:20,698 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:20,700 (21) Address 'unix:abstract=/tmp/dbus-CdaRcFA1pK,guid=11b039660e9b3f7c670f00f05fe1fdd4' parsed from file
+2020-12-22 17:08:20,705 (229) Connected to OMXPlayer at DBus address: <omxplayer.dbus_connection.DBusConnection object at 0x75f2b790>
+2020-12-22 17:08:25,711 (42) Checking if process is still alive
+2020-12-22 17:08:25,712 (47) OMXPlayer is running, so execute pause
+2020-12-22 17:08:25,728 (37) Pause
+2020-12-22 17:08:25,729 (42) Checking if process is still alive
+2020-12-22 17:08:25,729 (47) OMXPlayer is running, so execute set_alpha
+2020-12-22 17:08:40,874 (92) Measurement stopped by User
+2020-12-22 17:08:40,875 (870) Quitting OMXPlayer
+2020-12-22 17:08:40,877 (217) SIGTERM Sent to pid: 1881
+2020-12-22 17:08:40,884 (167) OMXPlayer process is dead, all DBus calls from here will fail
+2020-12-22 17:08:40,887 (867) Quit was called after self._process had already been released
+2020-12-22 17:08:45,391 (124) Instantiating OMXPlayer
+2020-12-22 17:08:45,392 (13) BusFinder initialised with path: None
+2020-12-22 17:08:45,396 (204) Setting up OMXPlayer process
+2020-12-22 17:08:45,397 (182) Opening omxplayer with the command: ['omxplayer', '--loop', '--vol', '0', '-o', 'both', '--no-osd', '--win', '0 0 1920 1080', '/home/pi/Projects/MuzeApp/media.mp4', '--dbus_name', 'org.mpris.MediaPlayer2.omxplayer167']
+2020-12-22 17:08:45,419 (208) Process opened with PID 1914
+2020-12-22 17:08:45,421 (222) Trying to connect to OMXPlayer via DBus
+2020-12-22 17:08:45,422 (225) DBus connect attempt: 0
+2020-12-22 17:08:45,579 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:45,581 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:45,581 (21) Address 'unix:abstract=/tmp/dbus-4BfbvUVrVm,guid=dbb1f1cd767effb33d7005195fe1fded' parsed from file
+2020-12-22 17:08:45,590 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 17:08:45,641 (225) DBus connect attempt: 1
+2020-12-22 17:08:45,642 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:45,643 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:45,643 (21) Address 'unix:abstract=/tmp/dbus-4BfbvUVrVm,guid=dbb1f1cd767effb33d7005195fe1fded' parsed from file
+2020-12-22 17:08:45,650 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 17:08:45,701 (225) DBus connect attempt: 2
+2020-12-22 17:08:45,702 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:45,703 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:45,704 (21) Address 'unix:abstract=/tmp/dbus-4BfbvUVrVm,guid=dbb1f1cd767effb33d7005195fe1fded' parsed from file
+2020-12-22 17:08:45,710 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 17:08:45,762 (225) DBus connect attempt: 3
+2020-12-22 17:08:45,763 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:45,763 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:45,764 (21) Address 'unix:abstract=/tmp/dbus-4BfbvUVrVm,guid=dbb1f1cd767effb33d7005195fe1fded' parsed from file
+2020-12-22 17:08:45,772 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 17:08:45,823 (225) DBus connect attempt: 4
+2020-12-22 17:08:45,825 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:45,826 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:45,826 (21) Address 'unix:abstract=/tmp/dbus-4BfbvUVrVm,guid=dbb1f1cd767effb33d7005195fe1fded' parsed from file
+2020-12-22 17:08:45,833 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 17:08:45,885 (225) DBus connect attempt: 5
+2020-12-22 17:08:45,886 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:45,895 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:45,896 (21) Address 'unix:abstract=/tmp/dbus-4BfbvUVrVm,guid=dbb1f1cd767effb33d7005195fe1fded' parsed from file
+2020-12-22 17:08:45,903 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 17:08:45,955 (225) DBus connect attempt: 6
+2020-12-22 17:08:45,956 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:45,956 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:45,957 (21) Address 'unix:abstract=/tmp/dbus-4BfbvUVrVm,guid=dbb1f1cd767effb33d7005195fe1fded' parsed from file
+2020-12-22 17:08:45,964 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 17:08:46,016 (225) DBus connect attempt: 7
+2020-12-22 17:08:46,017 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:46,017 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:46,018 (21) Address 'unix:abstract=/tmp/dbus-4BfbvUVrVm,guid=dbb1f1cd767effb33d7005195fe1fded' parsed from file
+2020-12-22 17:08:46,025 (233) Failed to connect to OMXPlayer DBus address
+2020-12-22 17:08:46,077 (225) DBus connect attempt: 8
+2020-12-22 17:08:46,078 (17) Opening file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:46,078 (19) Opened file at /tmp/omxplayerdbus.root
+2020-12-22 17:08:46,079 (21) Address 'unix:abstract=/tmp/dbus-4BfbvUVrVm,guid=dbb1f1cd767effb33d7005195fe1fded' parsed from file
+2020-12-22 17:08:46,085 (229) Connected to OMXPlayer at DBus address: <omxplayer.dbus_connection.DBusConnection object at 0x75f157d0>
+2020-12-22 17:08:50,509 (870) Quitting OMXPlayer
+2020-12-22 17:08:50,511 (217) SIGTERM Sent to pid: 1914
+2020-12-22 17:08:50,513 (167) OMXPlayer process is dead, all DBus calls from here will fail

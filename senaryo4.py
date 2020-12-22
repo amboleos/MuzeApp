@@ -29,7 +29,7 @@ from settings import lostInTime,delay,_debug,m_width,limit,scan,startDelay,m_wid
 player_log = logging.getLogger("Player 1")
 
 player = OMXPlayer("/home/pi/Projects/MuzeApp/media.wav", 
-                          args=['--loop','-o', 'both','--no-osd','--win','0 0 '+m_width+' '+m_height]
+                          args=['--loop','--vol',volume,'-o', 'both','--no-osd','--win','0 0 '+m_width+' '+m_height]
                         ,dbus_name='org.mpris.MediaPlayer2.omxplayer1'+str(random.randint(0,99)))
 
 player.playEvent += lambda _: player_log.info("Play")

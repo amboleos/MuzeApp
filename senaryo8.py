@@ -24,17 +24,17 @@ from omxplayer.keys import PAUSE,REWIND
 from pathlib import Path
 
 from trigger import trigger
-from settings import lostInTime,delay,_debug,m_width,limit,scan,startDelay,m_width,m_height
+from settings import lostInTime,delay,_debug,m_width,limit,scan,startDelay,m_width,m_height,volume
 
 player_log = logging.getLogger("Player 1")
 try:
     player = OMXPlayer("/home/pi/Projects/MuzeApp/media.mp4", 
-                          args=['--loop','-o', 'both','--no-osd','--win','0 0 '+m_width+' '+m_height]
+                          args=['--loop','--vol',volume,'-o', 'both','--no-osd','--win','0 0 '+m_width+' '+m_height]
                         ,dbus_name='org.mpris.MediaPlayer2.omxplayer1'+str(random.randint(0,99)))
 except Exception as e:
     print(e)
 player.playEvent += lambda _: player_log.info("Play")
-player.pauseEvent += lambda _: player_log.info("Pause")
+player.pauseEvent += lambda _: player_log.info("
 player.stopEvent += lambda _: player_log.info("Stop")
 time.sleep(5)
 player.pause()

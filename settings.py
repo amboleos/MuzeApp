@@ -13,6 +13,7 @@ lostInTime  = 5      # Saniye cinsinden algılama kaybedildikten sonra aktif kal
 startDelay  = 0      # Saniye cinsinden algılama oluşunca aktifleşmeden önceki bekleme
 m_width     = "1920"
 m_height    = "1080"
+volume      = "0"    # -2000 ile 600 arası bir sayı olmalı. 0 değeri %100, 600 ise %200 ses  
 #### SENARYOLAR
 
 #Senaryo 1
