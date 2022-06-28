@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
-#  Senario 2
+#  Senario 11
+# Düğme ile senkron başlamayı sağlar
 #Libraries
 import RPi.GPIO as GPIO
 import time
@@ -68,22 +69,8 @@ if __name__ == '__main__':
                 time.sleep(0.1)
                 if(GPIO.input(GPIO_BUTTON) == GPIO.HIGH):
                     if(not is_playing):
-                        time.sleep(startDelay)
-                        player.set_alpha(100 if _debug else 255 ) 
                         player.play()
-                        print ("Video has started")
-                        time.sleep(1.1)
-                        is_playing = True
-
-            position = player.position()
-            print (last_position,position) if _debug else True
-            if( last_position - position >1):
-                print ("Video has stopped")
-                player.pause()
-                player.set_alpha(0)
-                player.set_position(0)
-                is_playing = False
-            last_position  = position
+                        player.set_alpha(100 if _debug else 255 )
 
 
     
